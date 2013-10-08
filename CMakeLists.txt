@@ -275,6 +275,14 @@ set(TYPEDLIBJSFILES
     lib/xmldom/LSSerializer.js
     lib/xmldom/XPath.js
 
+    lib/xmled/ValidationModel.js
+    lib/xmled/XmlCanvas.js
+    lib/xmled/CrumbBar.js
+    lib/xmled/AttributeEditor.js
+    lib/xmled/XmlEditor.js
+
+    lib/gui/AnnotationViewManager.js
+    lib/odf/OdfNodeFilter.js
     lib/odf/Namespaces.js
     lib/odf/OdfUtils.js
     lib/odf/OdfNodeFilter.js

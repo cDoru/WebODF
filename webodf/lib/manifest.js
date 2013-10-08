@@ -98,5 +98,10 @@
     "xmldom/RelaxNG.js",
     "xmldom/RelaxNG2.js",
     "xmldom/RelaxNGParser.js",
-    "xmldom/XPath.js"
+    "xmldom/XPath.js",
+    "xmled/AttributeEditor.js",
+    "xmled/CrumbBar.js",
+    "xmled/ValidationModel.js",
+    "xmled/XmlCanvas.js",
+    "xmled/XmlEditor.js"
 ]
