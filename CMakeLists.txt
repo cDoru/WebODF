@@ -276,6 +276,7 @@ set(TYPEDLIBJSFILES
     lib/xmldom/XPath.js
 
     lib/xmled/ValidationModel.js
+    lib/xmled/XmlCaret.js
     lib/xmled/XmlCanvas.js
     lib/xmled/CrumbBar.js
     lib/xmled/AttributeEditor.js
