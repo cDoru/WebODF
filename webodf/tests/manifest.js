@@ -24,5 +24,6 @@
     "ops/TransformerTests.js",
     "tests.js",
     "xmldom/LSSerializerTests.js",
-    "xmldom/XPathTests.js"
+    "xmldom/XPathTests.js",
+    "xmled/ValidationModelTests.js"
 ]
