@@ -103,5 +103,7 @@
     "xmled/CrumbBar.js",
     "xmled/ValidationModel.js",
     "xmled/XmlCanvas.js",
-    "xmled/XmlEditor.js"
+    "xmled/XmlCaret.js",
+    "xmled/XmlEditor.js",
+     "xmled/XsdChecker.js"
 ]

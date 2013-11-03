@@ -275,6 +275,7 @@ set(TYPEDLIBJSFILES
     lib/xmldom/LSSerializer.js
     lib/xmldom/XPath.js
 
+    lib/xmled/XsdChecker.js
     lib/xmled/ValidationModel.js
     lib/xmled/XmlCaret.js
     lib/xmled/XmlCanvas.js
