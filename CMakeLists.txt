@@ -275,16 +275,6 @@ set(TYPEDLIBJSFILES
     lib/xmldom/LSSerializer.js
     lib/xmldom/XPath.js
 
-    lib/xmled/XsdChecker.js
-    lib/xmled/ValidationModel.js
-    lib/xmled/XmlCaret.js
-    lib/xmled/XmlCanvas.js
-    lib/xmled/CrumbBar.js
-    lib/xmled/AttributeEditor.js
-    lib/xmled/XmlEditor.js
-
-    lib/gui/AnnotationViewManager.js
-    lib/odf/OdfNodeFilter.js
     lib/odf/Namespaces.js
     lib/odf/OdfUtils.js
     lib/odf/OdfNodeFilter.js
@@ -309,6 +299,7 @@ set(UNTYPEDLIBJSFILES
     lib/odf/OdfCanvas.js
     lib/odf/CommandLineTools.js
 
+    lib/ops/Document.js
     lib/ops/Member.js
     lib/ops/Server.js
     lib/ops/Operation.js
@@ -336,6 +327,7 @@ set(UNTYPEDLIBJSFILES
     lib/ops/OpUpdateMetadata.js
     lib/ops/OperationFactory.js
     lib/gui/SelectionMover.js
+    lib/gui/UndoManager.js
     lib/ops/StepsTranslator.js
     lib/ops/TextPositionFilter.js
     lib/ops/OperationTransformMatrix.js
@@ -360,7 +352,6 @@ set(UNTYPEDLIBJSFILES
     lib/gui/EditInfoMarker.js
     lib/gui/SessionView.js
     lib/gui/CaretManager.js
-    lib/gui/UndoManager.js
     lib/gui/UndoStateRules.js
     lib/gui/TrivialUndoManager.js
     lib/gui/SelectionView.js
@@ -370,6 +361,16 @@ set(UNTYPEDLIBJSFILES
     lib/ops/Session.js
     lib/gui/AnnotationController.js
     lib/gui/SessionController.js
+
+    lib/xmled/XsdChecker.js
+    lib/xmled/ValidationModel.js
+    lib/xmled/XmlCaret.js
+    lib/xmled/XmlCanvas.js
+    lib/xmled/CrumbBar.js
+    lib/xmled/AttributeEditor.js
+    lib/xmled/SessionController.js
+    lib/xmled/XmlDocument.js
+    lib/xmled/XmlEditor.js
 )
 set(LIBJSFILES ${TYPEDLIBJSFILES} ${UNTYPEDLIBJSFILES})
 

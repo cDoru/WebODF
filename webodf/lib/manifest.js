@@ -104,6 +104,7 @@
     "xmled/ValidationModel.js",
     "xmled/XmlCanvas.js",
     "xmled/XmlCaret.js",
+    "xmled/XmlDocument.js",
     "xmled/XmlEditor.js",
-     "xmled/XsdChecker.js"
+    "xmled/XsdChecker.js"
 ]

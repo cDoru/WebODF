@@ -25,5 +25,6 @@
     "tests.js",
     "xmldom/LSSerializerTests.js",
     "xmldom/XPathTests.js",
-    "xmled/ValidationModelTests.js"
+    "xmled/ValidationModelTests.js",
+    "xmled/XmlDocumentTests.js"
 ]
