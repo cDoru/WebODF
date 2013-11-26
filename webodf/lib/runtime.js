@@ -1504,7 +1504,7 @@ var odf = {};
  */
 var ops = {};
 /**
- * @namespace The editing operations
+ * @namespace The xmled package.
  */
 var xmled = {};
 
@@ -1587,6 +1587,7 @@ var xmled = {};
         loadManifests();
         var path = findFullPath(classpath),
             content = runtime.readFileSync(path, "utf-8");
+        loadedClasses[classpath] = 1;
         // add label to dynamic script for easier debugging
         content += "\n//# sourceURL=" + path;
         content += "\n//@ sourceURL=" + path; // Chrome
